@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: rgba(234, 235, 232, 0.855);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 20%;
+    background-color: rgb(116, 221, 98);
+    padding: 10px 20px 0px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 10px 20px grey;
+}
+
+.menu ul {
+    padding: 0;
+    list-style: none;
+    
+    }
+.menu ul li {
+        position: relative;
+        }
+
+.menu li ul{
+    position: relative;
+    left: 149px;
+    top: 0;
+    display: none;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: green;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+ }
+
+.header {
+    margin: 10px;
+}
+
+.imgHeader{
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 10px 20px grey;
+}
+.content {
+    margin: 10px;
+    background-color: rgba(69, 81, 216, 0.7);
+    min-height: 300px;
+    padding: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 10px 20px grey;
+}
+.content p {
+    font-size: large;
+}
+.footer {
+    background-color: rgba(140, 140, 140, .8);
+    min-height: 150px;
+    margin: 10px;
+    padding: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 10px 20px grey;
+}
