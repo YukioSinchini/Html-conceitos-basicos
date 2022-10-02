@@ -70,7 +70,7 @@ body {
     margin: 10px;
     background-color: rgba(69, 81, 216, 0.7);
     min-height: 300px;
-    padding: 50px;
+    padding: 100px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     box-shadow: 10px 20px grey;
@@ -86,4 +86,16 @@ body {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     box-shadow: 10px 20px grey;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(156, 213, 157);
+}
+
+table tr:hover td {
+    background-color: darkgrey
+}
+
+table {
+    background-color: white;
 }
